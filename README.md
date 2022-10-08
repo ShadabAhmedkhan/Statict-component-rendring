@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Building  Statict-component-rendring app in React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
