@@ -1,13 +1,137 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: #23252C;
+}
+.name--i{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.profile---img{
+  height: 250px;
+  width: 317px;
+}
+.info--detail{
+    width: 317px;
+    font-size: 1.4rem;
+    margin: 0;
+    background: #1A1B21;
+    margin: auto;
+}
+.info--detail--{
+  height: 300px;
+  background: #1A1B21;
+}
+.profession{
+   
+  left: 110px;
+  top: 304px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
+}
+.email---{
+  color: #374151;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  
+  width: 115px;
+  height: 34px;
+  left: 21px;
+  top: 338px;
+  /* white */
+  background: #FFFFFF;
+  /* gray/300 */
+  border: 1px solid #D1D5DB;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+.linkdin---{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  
+  width: 115px;
+  height: 34px;
+  left: 173px;
+  top: 338px;
+  background: #5093E2;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+.icon{
+  color: #1E1F26;
+  
+  left: 10%;
+  right: 10%;
+  top: 35%;
+  bottom: 20%;
+}
+.About---{
+  width: 260px;
+  
+  top: 360px;
+  left: 20px;
+  text-align: left;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+}
+.Interests---{
+  width: 260px;
+  
+  top: 460px;
+  left: 20px;
+  text-align: left;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+}
+.heading---{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F5F5F5;
+}
+footer{
+  position: fixed;
+  width: 317px;
+  height: 74px;
+  left: 79px;
+  top: 560px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  padding: 10px
+}
+.footer--{
+   padding: 10px 10px 10px 10px;
 }

@@ -1,38 +1,143 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: #23252C;
+}
+.name--i{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
   text-align: center;
+  color: #FFFFFF;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile---img{
+  height: 250px;
+  width: 317px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.info--detail{
+  width: 317px;
+  left: 80px;
+  font-size: 1.4rem;
+  text-align: center;
+  margin: auto;
   align-items: center;
+  background: #1A1B21;
+}
+.info--detail--{
+  height: 300px;
+  background: #1A1B21;
+}
+.profession{
+  left: 110px;
+  top: 304px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
+}
+.email---{
+  color: #374151;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: center;
+  padding: 9px 13px 9px 11px;
 
-.App-link {
-  color: #61dafb;
+  width: 115px;
+  height: 34px;
+  left: 21px;
+  top: 338px;
+  /* white */
+  background: #FFFFFF;
+  /* gray/300 */
+  border: 1px solid #D1D5DB;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  margin-left: 26px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.linkdin---{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+  left: 173px;
+  top: 338px;
+  background: #5093E2;
+  box-shadow: 0px 1px 2px rgb(0 0 0 / 5%);
+  border-radius: 6px;
+  margin: auto;
+  float: right;
+  margin-top: -33px;
+  margin-right: 24px;
+  
+}
+.icon{
+  color: #1E1F26;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 35%;
+  bottom: 20%;
+}
+.About---{
+  width: 260px;
+  top: 360px;
+  left: 20px;
+  text-align: left;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+  margin-left: 28px;
+}
+.Interests---{
+  width: 260px;
+  top: 460px;
+  left: 20px;
+  text-align: left;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+  margin-left: 28px;
+}
+.heading---{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F5F5F5;
+}
+footer{
+  width: 317px;
+  height: 74px;
+  left: 79px;
+  top: 560px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
+.footer--{
+   padding: 10px 10px 10px 10px;
 }
